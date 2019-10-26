@@ -1,0 +1,29 @@
+{
+  "name": "tapetify",
+  "version": "1.0.0",
+  "description": "Tapetify app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/DMilka/Tapetify",
+  "keywords": [
+    "Electron",
+    "Tapetify",
+    "Wallpaper"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "electron-packager": "^14.0.6"
+  },
+  "dependencies": {
+    "chokidar": "^3.2.1",
+    "electron-builder": "^21.2.0",
+    "nat-geo-api": "^1.0.0",
+    "national-geographic-api": "^2.0.4",
+    "request": "^2.88.0",
+    "wallpaper": "^4.4.1"
+  }
+}
